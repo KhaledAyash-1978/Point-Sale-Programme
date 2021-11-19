@@ -1,0 +1,7 @@
+org\example\JdbcDao.class
+org\example\Tables.class
+module-info.class
+org\example\DashboardController.class
+org\example\App.class
+org\example\PrimaryController.class
+org\example\TablesController.class

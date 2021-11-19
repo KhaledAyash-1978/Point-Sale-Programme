@@ -1,0 +1,147 @@
+
+.root{
+-fx-font-family:Poppins;
+-fx-font-weight:500;
+-fx-font-size: 12px;
+-fx-background-color:#1e272e;
+
+}
+.pane{
+-fx-background-color:white;
+}
+.button{
+-fx-font-family: Poppins;
+-fx-text-fill: #f5f6fa;
+-fx-background-color:#7f8c8d;
+-fx-background-radius:50px;
+-fx-font-weight:400;
+-fx-border-color:#7f8c8d;
+-fx-border-style:solid;
+-fx-border-width:2px;
+-fx-border-radius:50px;
+}
+
+.button:hover {
+-fx-font-size: 14px;
+-fx-font-weight: Bold 700;
+-fx-background-color:#f39c12;
+-fx-border-color:#f39c12;
+-fx-border-radius:50px;
+}
+.cancel {
+-fx-background-color: #c23616;
+-fx-background-radius:50px;
+-fx-border-color:#c23616;
+-fx-border-style:solid;
+-fx-border-width:2px;
+-fx-border-radius:50px;
+}
+.cancel:hover {
+-fx-background-color: #f39c12;
+-fx-border-color:#f39c12;
+-fx-text-fill: #f5f6fa;
+
+}
+.order {
+-fx-background-color: #44bd32;
+-fx-border-color:#44bd32;
+
+}
+.order:hover {
+-fx-background-color: #f39c12;
+-fx-border-color:#f39c12;
+-fx-text-fill: #f5f6fa;
+
+}
+.categories{
+-fx-background-color:#227093;
+-fx-border-color:#227093;
+}
+.categories:hover{
+-fx-background-color: #f39c12;
+-fx-border-color:#f39c12;
+-fx-text-fill: #f5f6fa;
+}
+.labels {
+-fx-text-fill: #f5f6fa;
+-fx-background-color: #e58e26;
+}
+.hbox{
+-fx-background-color:#1e272e;
+}
+.vbox{
+-fx-background-color:#2d3436;
+}
+
+.Ribbon{
+-fx-text-fill: #f5f6fa;
+-fx-font-weight:600;
+-fx-font-size: 12px;
+}
+.Ribbon-first{
+-fx-background-color:#22709370;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:top {
+
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-color:#1e272e;
+    -fx-pref-height: 40px;
+    -fx-background-insets: 0;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected:top {
+    -fx-border-color:transparent transparent #e58e26 transparent;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-radius: 0 0 5 5;
+    -fx-background-color:#22709370;
+    -fx-pref-height: 40px;
+    -fx-background-insets: 0;
+}
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+
+    -fx-alignment: CENTER;
+    -fx-text-fill:white;
+    -fx-font-weight:Bold 500;
+    -fx-font-size:14px;
+}
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+     -fx-font-weight: 400;
+     -fx-font-size:14px;
+
+}
+
+
+.tab-pane > .tab-header-area > .tab-header-background {
+-fx-background-color:transparent;
+    -fx-border-color: #a3a7a8;
+    -fx-border-width: 0 ;
+    -fx-background-insets: 0;
+    -fx-pref-height: 45px;
+}
+
+
+.login{
+  -fx-font-size: 14px;
+ -fx-background-color:#ecf0f1;
+}
+
+#imageProduct {
+-fx-background-color:white;
+-fx-border-width:1px;
+-fx-border-color:#f39c12;
+-fx-text-align: center;
+}
+.productStyle{
+-fx-background-color: #1e272e;
+    -fx-text-fill:white;
+}
+.formStyle{
+-fx-focus-color:#f39c12;
+}

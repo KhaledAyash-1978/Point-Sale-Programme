@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbox_all" spacing="24.0" styleClass="login" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+    <children>
+        <Label fx:id="label_login" alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="20.0" prefWidth="500.0" styleClass="login" text="Login">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+            <padding>
+                <Insets left="60.0" />
+            </padding>
+        </Label>
+        <HBox fx:id="hbox_user" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="36.0" prefWidth="450.0" spacing="16.0">
+            <children>
+                <ImageView fx:id="usericon" fitHeight="150.0" fitWidth="24.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../icons/shield-account.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="label_user" text="Username" />
+                <TextField fx:id="txtUsername" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="300.0" />
+            </children>
+        </HBox>
+        <HBox fx:id="hbox_password" alignment="CENTER" prefHeight="30.0" prefWidth="450.0" spacing="16.0">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../icons/shield-lock.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="label_password" text="Password" />
+                <PasswordField fx:id="txtPassword" prefHeight="36.0" prefWidth="300.0" />
+            </children>
+        </HBox>
+        <JFXButton fx:id="btn_Login" alignment="CENTER" contentDisplay="RIGHT" onAction="#login" prefHeight="40.0" prefWidth="120.0" ripplerFill="#034171" stylesheets="@style.css" text="Login">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets left="320.0" />
+            </VBox.margin>
+        </JFXButton>
+    </children>
+    <padding>
+        <Insets bottom="24.0" left="24.0" right="24.0" top="24.0" />
+    </padding>
+</VBox>
